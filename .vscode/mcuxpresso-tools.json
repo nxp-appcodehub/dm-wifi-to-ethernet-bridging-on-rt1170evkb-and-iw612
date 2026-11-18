@@ -1,0 +1,16 @@
+{
+  "version": "25.3",
+  "toolchainPath": "${userHome}/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi",
+  "linkedProjects": [],
+  "trustZoneType": "none",
+  "multicoreType": "none",
+  "projectType": "sdk-v2-freestanding",
+  "projectName": "wifi_ethernet_bridge_rt1170evkb_iw612",
+  "sdk": {
+    "path": "d:\\Documents\\mimxrt1170_evkb",
+    "version": "26.6.0",
+    "boardId": "evkbmimxrt1170",
+    "deviceId": "MIMXRT1176xxxxx",
+    "coreId": "cm7"
+  }
+}

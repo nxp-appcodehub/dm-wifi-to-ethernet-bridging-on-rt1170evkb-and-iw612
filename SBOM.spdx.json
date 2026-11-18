@@ -1,0 +1,108 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "spdxVersion": "SPDX-2.3",
+  "creationInfo": {
+    "created": "2026-11-02T09:13:35Z",
+    "creators": [
+      "Organization: NXP"
+    ],
+    "licenseListVersion": "3.28"
+  },
+  "name": "dm-wifi-to-ethernet-bridging-on-rt1170evkb-and-iw612",
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "https://nxp.com/spdx/4519d990-2cbd-4e91-a635-d414b03f8b79",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-package-4519d990-2cbd-4e91-a635-d414b03f8b79",
+      "name": "dm-wifi-to-ethernet-bridging-on-rt1170evkb-and-iw612",
+      "versionInfo": "v1.0",
+      "licenseConcluded": "(BSD-3-Clause)",
+      "licenseDeclared": "(BSD-3-Clause)",
+      "downloadLocation": "https://github.com/nxp-appcodehub/dm-wifi-to-ethernet-bridging-on-rt1170evkb-and-iw612",
+      "originator": "Organization: NXP",
+      "supplier": "NOASSERTION",
+      "externalRefs": [],
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-package-4519d990-2cbd-4e91-a635-d414b03f8b79---b7b4d7f2-95ac-4480-93c9-ceeee76828c8",
+      "name": "FreeRTOS Real Time Kernel",
+      "versionInfo": "V11.2.0",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "homepage": "https://sourceforge.net/projects/freertos",
+      "downloadLocation": "NOASSERTION",
+      "originator": "Organization: unknown",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:2.3:a:amazon:aws-freertos-kernel:11.2.0:*:*:*:*:*:*:*",
+          "referenceType": "cpe23Type"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:2.3:a:amazon:freertos:11.2.0:*:*:*:*:*:*:*",
+          "referenceType": "cpe23Type"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:2.3:o:amazon:freertos:11.2.0:*:*:*:*:*:*:*",
+          "referenceType": "cpe23Type"
+        },
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/freertos/freertos-kernel@V11.2.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-package-4519d990-2cbd-4e91-a635-d414b03f8b79---87476701-cd7b-494c-a778-27bd8fecc90f",
+      "name": "lwIP",
+      "versionInfo": "2.2.1",
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "BSD-3-Clause",
+      "homepage": "http://savannah.nongnu.org/projects/lwip/",
+      "downloadLocation": "NOASSERTION",
+      "originator": "Organization: unknown",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:2.3:a:iwip_project:iwip:2.2.1:*:*:*:*:*:*:*",
+          "referenceType": "cpe23Type"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:2.3:a:lwip_project:lwip:2.2.1:*:*:*:*:*:*:*",
+          "referenceType": "cpe23Type"
+        },
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/lwip-tcpip/lwip@STABLE-2_2_1_RELEASE",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-package-4519d990-2cbd-4e91-a635-d414b03f8b79"
+    },
+    {
+      "spdxElementId": "SPDXRef-package-4519d990-2cbd-4e91-a635-d414b03f8b79",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-package-4519d990-2cbd-4e91-a635-d414b03f8b79---87476701-cd7b-494c-a778-27bd8fecc90f"
+    },
+    {
+      "spdxElementId": "SPDXRef-package-4519d990-2cbd-4e91-a635-d414b03f8b79",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-package-4519d990-2cbd-4e91-a635-d414b03f8b79---b7b4d7f2-95ac-4480-93c9-ceeee76828c8"
+    }
+  ]
+}

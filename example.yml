@@ -1,0 +1,28 @@
+wifi_cli:
+  boards:
+    evkbmimxrt1170@cm7:
+    - -armgcc@debug
+    - -armgcc@release
+    - -armgcc@sdram_debug
+    - -armgcc@sdram_release
+    - -iar@debug
+    - -iar@release
+    - -iar@sdram_debug
+    - -iar@sdram_release
+    - -mdk@debug
+    - -mdk@release
+    - -mdk@sdram_debug
+    - -mdk@sdram_release
+  contents:
+    document:
+      brief: wifi_cli
+      category: wifi_examples
+      example_readme:
+      - examples/wifi_examples/wifi_cli/readme.md
+      - ${board_root}/${board}/wifi_examples/common/wifi_examples_readme.md
+      - ${board_root}/${board}/wifi_examples/readme_modules.md
+      - ${board_root}/${board}/examples_shared_readme.md
+      name: wifi_cli${core_id_suffix_name}
+    meta_path: examples/wifi_examples/wifi_cli
+    project-root-path: boards/${board}/wifi_examples/wifi_cli/${multicore_foldername}
+  section-type: freestanding_application

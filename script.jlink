@@ -1,0 +1,4 @@
+ExitOnError 1
+r
+loadfile d:/Documents/wifi_ethernet_bridge_rt1170evkb_iw612/flexspi_nor_debug/wifi_ethernet_bridge_rt1170evkb_iw612_cm7.bin 0x30000400
+qc
