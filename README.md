@@ -234,4 +234,4 @@ Questions regarding the content/correctness of this example can be entered as Is
 ## 7. Release Notes<a name="step7"></a>
 | Version | Description / Update                           | Date                        |
 |:-------:|------------------------------------------------|----------------------------:|
-| 1.0     | Initial release on Application Code Hub        | October 30<sup>th</sup> 2026 |
+| 1.0     | Initial release on Application Code Hub        | November 18<sup>th</sup> 2026 |
